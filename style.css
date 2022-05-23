@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+/* 
+font-family: 'Poppins', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  width: 100vw;
+  height: 100vh;
+  background: url(./img/hero.jpg);
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-content {
+  margin-bottom: 150px;
+  color: whitesmoke;
+  text-align: center;
+}
+.header-content h1 {
+  font-size: 7vmin;
+}
+
+.header-content h2 {
+  font-size: 4vmin;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+/* NAVBAR */
+.navbar {
+  display: flex;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  color: whitesmoke;
+  font-size: 1.7vmin;
+}
+.navbar h1 {
+  letter-spacing: 0.2rem;
+}
+.diff {
+  font-weight: 100;
+}
+/* photos */
+.card {
+  text-align: center;
+}
+
+.input {
+  padding: 10px;
+  border: 1px #0000ff solid;
+  border-radius: 5px;
+  outline: none;
+  background-color: #f7f7f7;
+  margin: 10px;
+}
+.br {
+  border-radius: 5px;
+  border: 1px #0000ff solid;
+}
+.how-section1 {
+  margin-top: -15%;
+  padding: 10%;
+}
+.how-section1 h4 {
+  color: #0000ff;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+.how-section1 .subheading {
+  color: #3931af;
+  font-size: 20px;
+  text-align: center;
+}
+.how-section1 .row {
+  margin-top: 10%;
+  text-align: center;
+}
+.how-img {
+  text-align: center;
+}
+.how-img img {
+  width: 40%;
+}
+@media only screen and (max-width: 600px) {
+  .marb {
+    margin-bottom: 30px;
+  }
+}
